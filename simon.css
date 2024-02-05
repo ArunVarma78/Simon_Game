@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: #a8a8a8;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.head{
+    height: 120px;
+}
+.container{
+    margin: 10px auto;
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+    align-items: center;
+}
+div div{
+    margin: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 10px solid #1e1e1e;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.flash{
+    background-color: white;
+}
+.backcolor{
+    background-color: red;
+}
